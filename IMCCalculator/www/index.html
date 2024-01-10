@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IMC Calculator</title>
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="mainPage">
+
+    <div data-role="header">
+        <h1>IMC Calculator</h1>
+    </div>
+
+
+
+    <div data-role="content">
+
+        <ul data-role="listview" data-inset="true"></ul>
+
+        <label for="weight">Poids (en kg):</label>
+        <input type="number" name="weight" id="weight">
+
+        <label for="height">Taille (en m):</label>
+        <input type="number" name="height" id="height">
+
+        <button id="calculateBtn">Calculer l'IMC</button>
+
+        <div id="result"></div>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <h4>Boubacar </h4>
+    </div>
+
+</div>
+
+</body>
+</html>
